@@ -1,0 +1,45 @@
+body{
+    display: block;
+    height: 0px;
+}
+
+.main{
+    height: 800px;
+}
+
+button{
+    color:black;
+    background: #588adb;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    height: 40px;
+    width: 120px;
+}
+
+input[type=submit]{
+    height: 40px;
+    width: 120px;
+}
+
+.gray{
+    background-color: gray;
+    color:white;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    margin-top:15px;
+    padding: 15px 0px;
+}
+
+footer h1{
+    font-size: 20px;
+    margin: 0px;
+}

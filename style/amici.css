@@ -1,0 +1,121 @@
+  #titolicontenuti{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  #trovato,#nontrovato{
+    width: 660px;
+    color:#588adb;
+    margin:auto;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  #nocontent{
+    width: 600px;
+    height: 600px;
+    margin:auto;
+  }
+
+#persone, #cercautente{
+    display:flex;
+    margin:auto;
+    
+    width: 690px;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+
+#ricercares{
+  margin-top:20px;
+}
+
+
+#titolopers{
+  margin-top: 30px;
+}
+
+.inffollow{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hidden{
+    display:none;
+}
+
+#close{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#titleuser{
+  display: flex;
+  width: 690px;
+  align-items: center;
+  margin:auto;
+  color:#588adb;
+}
+
+#se_us{
+  width: 690px;
+  margin: auto;
+}
+form {
+  width: 300px;
+  display: flex;
+  
+  margin: auto;
+  margin-top: 70px;
+}
+
+input{
+  border-radius: 20px;
+  background-color: rgb(224, 224, 224);
+  border: none;
+  height: 30px;
+  margin-left: 20px;
+  padding: 4px;
+}
+
+
+#caricaaltributton {
+ 
+  display: flex;
+  margin: auto;
+  width: 120px;
+  margin-bottom: 20px;
+  background-color: #588adb;
+  justify-content: center;
+  color:white;
+  font-size:20px;
+  border: none;
+  border-radius: 20px;
+  
+}
+
+
+@media (max-width: 700px) {
+
+  #se_us{
+    width: 100%;
+  }
+
+  #persone{
+    width:100%;
+  }
+
+  #trovato,#nontrovato{
+    text-align: center;
+    width: 100%;
+  }
+
+  #ricercares, #titleuser, #cercautente{
+    width: 100%;
+  }
+
+}

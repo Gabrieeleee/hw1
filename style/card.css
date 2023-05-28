@@ -1,0 +1,62 @@
+.card{
+    max-height: 300px;
+    width: 220px;
+    background-color: white;
+    margin-bottom: 10px;
+
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #588adb;
+    
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top:5px;
+}
+
+.card h1{
+    margin: 10px 0px 0px 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.card h2{
+    color:#588adb;
+    margin: 5px 0px;
+    font-size: 20px
+}
+
+.card .informazioni{
+    max-height: 250px;
+    height: 250px;
+    width: 210px;
+}
+
+.card p{
+    color: gray;
+    margin-right: 5px;
+}
+
+.segui{
+    border-top: 1px solid lightgray;
+    width: 100%;
+   
+}
+.card .segui img{
+    width: 30px;
+    height: 30px;
+}
+
+.inffollow{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    margin:auto;
+    
+}

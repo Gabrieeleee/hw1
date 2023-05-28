@@ -1,0 +1,167 @@
+
+#utente{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin:auto;
+    margin-top:50px;
+    background-color: white;
+    
+    width: 800px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+#nocontent{
+    width: 680px;
+    height: 600px;
+    margin:auto;
+  }
+#informazionigenerali{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgb(197, 198, 199) ;
+    border-top: 1px solid rgb(229, 230, 232) ;
+}
+
+#profilepic img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin:5px;
+    
+}
+
+#profileinformation{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+
+#profileinformation h2{
+    color: #588adb;
+}
+
+#profileinformation p{
+    color:gray;
+}
+
+
+
+#segui{
+    width: 30px;
+    height: 30px;
+}
+
+#navbarutente{
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: white;
+    border: none;
+    color: gray;
+    padding: 5px 10px 5px 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    
+    font-family: 'Lora', serif;
+    font-style: italic;
+    
+}
+
+#modify{
+    background-color: #588adb ;
+    color:white;
+    border-radius: 20px;
+}
+
+
+
+#navbarutente button:hover{
+    background-color: lightgray;
+}
+
+
+
+.colorabottone{
+    background-color:white;
+    color: #588adb;
+    border-bottom: 2px solid #588adb;
+}
+
+#followers,#follow{
+    width: 660px;
+    color:#588adb;
+    margin:auto;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+.hidden{
+    display:none;
+}
+
+
+#persone, #cercautente{
+    display:flex;
+    margin:auto;
+   
+    width: 690px;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+
+.nothing{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin:auto;
+}
+
+#errore h1{
+    text-align: center;
+}
+
+#nofound,#nopostfound,#nonewssaved{
+    color:red;
+    text-align: center;
+}
+
+
+
+@media (max-width: 700px) {
+
+        #utente{
+        width: 100%;  
+    }
+
+    #main{
+        margin-top: 10px;
+    }
+
+    #persone{
+        width: 100%;
+    }
+ 
+    #followers, #follow{
+        width: 100%;
+    }
+
+    #modify{
+        display: none;
+    }
+
+}
+  

@@ -1,0 +1,169 @@
+#modal-view-commenti {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+  
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #modal-view-commenti.hidden {
+    display: none;
+  }
+
+  .no-scroll {
+    overflow: hidden;
+  }
+
+
+  #sezionecommenti{
+    background-color: white;
+    color:black;
+    width: 500px;
+    border-radius: 20px;
+    margin-top:20px;
+    
+    max-height: 650px;
+    overflow:auto;
+  }
+
+  #sezionecommenti h1{
+    text-align: center;
+    margin: 5px 0px;
+    padding: 10px 0px;
+    font-size: 20px;
+  }
+
+  h2{
+    margin:0px;
+    font-size: 20px;
+  }
+
+  .primo, .primoo{
+    display: flex;
+    margin: 10px 0px 5px 10px;
+    
+  }
+
+  .primo{
+    align-items: center;
+  }
+
+  .secondo{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 100%;
+    
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+    padding-left: 10px;
+  }
+
+  .secondo p{
+    margin: 5px 0px 0px 0px;
+  }
+
+  .immagindelprofilo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+
+  .formcommento{
+    margin: 0px 10px 0px 10px;
+    width: 100%;
+  }
+
+  .scrivitesto{
+    background-color: lightgray;
+    border-radius: 20px;
+    resize: none;
+    width: 100%;
+    
+    padding: 5px 0px 0px 10px;
+  }
+
+  .pulsinvia{
+    width: 50px;
+    height: 30px;
+    margin: 5px 0px 20px 0px;
+    padding: 0px;
+    background: #588adb;
+    cursor: pointer;
+    font-size: 15px;
+    color:white;
+    border: 0px;
+    border-radius: 5px;
+
+  }
+
+
+
+
+  
+.head h1{
+  font-size: 25px;
+  margin: 5px;
+}
+
+.head{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+}
+
+.head img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+
+.head img:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+
+
+.tit{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5px;
+  align-items: center;
+}
+
+.tit img{
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.deleteimg{
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+@media (max-width: 700px) {
+
+  .secondo h2{
+      font-size:20px;  
+  }
+
+  .secondo p{
+      font-size: 15px;
+  }
+
+}
+
